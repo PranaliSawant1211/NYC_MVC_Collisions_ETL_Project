@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_2MYAoBOSEeuOR9BhkZqqgw" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_2MYAoROSEeuOR9BhkZqqgw" comment="" name="DI_CNTL_Schema" prompt="DI_CNTL_Schema?" promptNeeded="false" type="id_String" value="dbo"/>
+    <contextParameter xmi:id="_2MYAohOSEeuOR9BhkZqqgw" comment="" name="DI_CNTL_Database" prompt="DI_CNTL_Database?" promptNeeded="false" type="id_String" value="DI_CNTL"/>
+    <contextParameter xmi:id="_2MYAoxOSEeuOR9BhkZqqgw" comment="" name="DI_CNTL_Login" prompt="DI_CNTL_Login?" promptNeeded="false" type="id_String" value="info7370"/>
+    <contextParameter xmi:id="_2MYApBOSEeuOR9BhkZqqgw" comment="" name="DI_CNTL_Server" prompt="DI_CNTL_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_2MYApROSEeuOR9BhkZqqgw" comment="" name="DI_CNTL_Port" prompt="DI_CNTL_Port?" promptNeeded="false" type="id_String" value="1433"/>
+    <contextParameter xmi:id="_2MYAphOSEeuOR9BhkZqqgw" comment="" name="DI_CNTL_AdditionalParams" prompt="DI_CNTL_AdditionalParams?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_2MYApxOSEeuOR9BhkZqqgw" comment="" name="DI_CNTL_Password" prompt="DI_CNTL_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:JzOrPL4ndhTeUkMeX6ivT4YByIU8rMyguT4HSiSWMGjxh8S6"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_2MYAqBOSEeuOR9BhkZqqgw" confirmationNeeded="false" name="DEV">
+    <contextParameter xmi:id="_2MYAqROSEeuOR9BhkZqqgw" comment="" name="DI_CNTL_Schema" prompt="DI_CNTL_Schema?" promptNeeded="false" type="id_String" value="dbo"/>
+    <contextParameter xmi:id="_2MYAqhOSEeuOR9BhkZqqgw" comment="" name="DI_CNTL_Database" prompt="DI_CNTL_Database?" promptNeeded="false" type="id_String" value="DI_CNTL"/>
+    <contextParameter xmi:id="_2MYAqxOSEeuOR9BhkZqqgw" comment="" name="DI_CNTL_Login" prompt="DI_CNTL_Login?" promptNeeded="false" type="id_String" value="info7370"/>
+    <contextParameter xmi:id="_2MYArBOSEeuOR9BhkZqqgw" comment="" name="DI_CNTL_Server" prompt="DI_CNTL_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_2MYArROSEeuOR9BhkZqqgw" comment="" name="DI_CNTL_Port" prompt="DI_CNTL_Port?" promptNeeded="false" type="id_String" value="1433"/>
+    <contextParameter xmi:id="_2MYArhOSEeuOR9BhkZqqgw" comment="" name="DI_CNTL_AdditionalParams" prompt="DI_CNTL_AdditionalParams?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_2MYArxOSEeuOR9BhkZqqgw" comment="" name="DI_CNTL_Password" prompt="DI_CNTL_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:WaUQKw67+pGQuPxJPb5EBMEC0tOQn0N1uJv2MDF3IQ3LMuXN"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_2MYAsBOSEeuOR9BhkZqqgw" confirmationNeeded="false" name="PRD">
+    <contextParameter xmi:id="_2MYAsROSEeuOR9BhkZqqgw" comment="" name="DI_CNTL_Schema" prompt="DI_CNTL_Schema?" promptNeeded="false" type="id_String" value="dbo"/>
+    <contextParameter xmi:id="_2MYAshOSEeuOR9BhkZqqgw" comment="" name="DI_CNTL_Database" prompt="DI_CNTL_Database?" promptNeeded="false" type="id_String" value="DI_CNTL_PRD"/>
+    <contextParameter xmi:id="_2MYAsxOSEeuOR9BhkZqqgw" comment="" name="DI_CNTL_Login" prompt="DI_CNTL_Login?" promptNeeded="false" type="id_String" value="info7370"/>
+    <contextParameter xmi:id="_2MYAtBOSEeuOR9BhkZqqgw" comment="" name="DI_CNTL_Server" prompt="DI_CNTL_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_2MYAtROSEeuOR9BhkZqqgw" comment="" name="DI_CNTL_Port" prompt="DI_CNTL_Port?" promptNeeded="false" type="id_String" value="1433"/>
+    <contextParameter xmi:id="_2MYAthOSEeuOR9BhkZqqgw" comment="" name="DI_CNTL_AdditionalParams" prompt="DI_CNTL_AdditionalParams?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_2MYAtxOSEeuOR9BhkZqqgw" comment="" name="DI_CNTL_Password" prompt="DI_CNTL_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:G4Uppsno3AGnTNXiqfMu8rI4S2wWwGg2cPZyxVySu0MXtOLY"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_2MYAuBOSEeuOR9BhkZqqgw" confirmationNeeded="false" name="SBX">
+    <contextParameter xmi:id="_2MYAuROSEeuOR9BhkZqqgw" comment="" name="DI_CNTL_Schema" prompt="DI_CNTL_Schema?" promptNeeded="false" type="id_String" value="dbo"/>
+    <contextParameter xmi:id="_2MYAuhOSEeuOR9BhkZqqgw" comment="" name="DI_CNTL_Database" prompt="DI_CNTL_Database?" promptNeeded="false" type="id_String" value="DI_CNTL"/>
+    <contextParameter xmi:id="_2MYAuxOSEeuOR9BhkZqqgw" comment="" name="DI_CNTL_Login" prompt="DI_CNTL_Login?" promptNeeded="false" type="id_String" value="info7370"/>
+    <contextParameter xmi:id="_2MYAvBOSEeuOR9BhkZqqgw" comment="" name="DI_CNTL_Server" prompt="DI_CNTL_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_2MYAvROSEeuOR9BhkZqqgw" comment="" name="DI_CNTL_Port" prompt="DI_CNTL_Port?" promptNeeded="false" type="id_String" value="1433"/>
+    <contextParameter xmi:id="_2MYAvhOSEeuOR9BhkZqqgw" comment="" name="DI_CNTL_AdditionalParams" prompt="DI_CNTL_AdditionalParams?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_2MYAvxOSEeuOR9BhkZqqgw" comment="" name="DI_CNTL_Password" prompt="DI_CNTL_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:smveciC8MxJiQQ9y46Qz3zNG8S9tcbY8yTzLIe+IoDJTILJ1"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_2MYAwBOSEeuOR9BhkZqqgw" confirmationNeeded="false" name="TST">
+    <contextParameter xmi:id="_2MYAwROSEeuOR9BhkZqqgw" comment="" name="DI_CNTL_Schema" prompt="DI_CNTL_Schema?" promptNeeded="false" type="id_String" value="dbo"/>
+    <contextParameter xmi:id="_2MYAwhOSEeuOR9BhkZqqgw" comment="" name="DI_CNTL_Database" prompt="DI_CNTL_Database?" promptNeeded="false" type="id_String" value="DI_CNTL"/>
+    <contextParameter xmi:id="_2MYAwxOSEeuOR9BhkZqqgw" comment="" name="DI_CNTL_Login" prompt="DI_CNTL_Login?" promptNeeded="false" type="id_String" value="info7370"/>
+    <contextParameter xmi:id="_2MYAxBOSEeuOR9BhkZqqgw" comment="" name="DI_CNTL_Server" prompt="DI_CNTL_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_2MYAxROSEeuOR9BhkZqqgw" comment="" name="DI_CNTL_Port" prompt="DI_CNTL_Port?" promptNeeded="false" type="id_String" value="1433"/>
+    <contextParameter xmi:id="_2MYAxhOSEeuOR9BhkZqqgw" comment="" name="DI_CNTL_AdditionalParams" prompt="DI_CNTL_AdditionalParams?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_2MYAxxOSEeuOR9BhkZqqgw" comment="" name="DI_CNTL_Password" prompt="DI_CNTL_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:3up+mexDXbCbfyVr0x5/1TouEWcuTUe8L/aQ1VItJg4f2vGV"/>
+  </talendfile:ContextType>
+</xmi:XMI>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_gwUQMd1REe2o2u7bmTeD-A" name="Motor_Vehicle_Collision_Vehicle" dataPackage="_gwUQMt1REe2o2u7bmTeD-A" Server="Localhost 127.0.0.1" FilePath="C:/Users/shriy/Downloads/OneDrive_1_4-16-2023/Motor_Vehicle_Collisions_-_Vehicles.tsv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;\t&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Tabulation"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_gwUQMt1REe2o2u7bmTeD-A" name="default" dataManager="_gwUQMd1REe2o2u7bmTeD-A">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_gwUQM91REe2o2u7bmTeD-A" id="_ZmBMsN1REe2o2u7bmTeD-A" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gwUQNN1REe2o2u7bmTeD-A" label="UNIQUE_ID" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gwUQNd1REe2o2u7bmTeD-A" label="COLLISION_ID" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gwUQNt1REe2o2u7bmTeD-A" label="CRASH_DATE" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gwUQN91REe2o2u7bmTeD-A" label="CRASH_TIME" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gwUQON1REe2o2u7bmTeD-A" label="VEHICLE_ID" length="36" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gwUQOd1REe2o2u7bmTeD-A" label="STATE_REGISTRATION" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gwUQOt1REe2o2u7bmTeD-A" label="VEHICLE_TYPE" length="35" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gwUQO91REe2o2u7bmTeD-A" label="VEHICLE_MAKE" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gwUQPN1REe2o2u7bmTeD-A" label="VEHICLE_MODEL" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gwUQPd1REe2o2u7bmTeD-A" label="VEHICLE_YEAR" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gwUQPt1REe2o2u7bmTeD-A" label="TRAVEL_DIRECTION" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gwUQP91REe2o2u7bmTeD-A" label="VEHICLE_OCCUPANTS" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gwUQQN1REe2o2u7bmTeD-A" label="DRIVER_SEX" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gwUQQd1REe2o2u7bmTeD-A" label="DRIVER_LICENSE_STATUS" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gwUQQt1REe2o2u7bmTeD-A" label="DRIVER_LICENSE_JURISDICTION" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gwUQQ91REe2o2u7bmTeD-A" label="PRE_CRASH" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gwUQRN1REe2o2u7bmTeD-A" label="POINT_OF_IMPACT" length="25" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gwUQRd1REe2o2u7bmTeD-A" label="VEHICLE_DAMAGE" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gwUQRt1REe2o2u7bmTeD-A" label="VEHICLE_DAMAGE_1" length="25" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gwUQR91REe2o2u7bmTeD-A" label="VEHICLE_DAMAGE_2" length="25" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gwUQSN1REe2o2u7bmTeD-A" label="VEHICLE_DAMAGE_3" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gwUQSd1REe2o2u7bmTeD-A" label="PUBLIC_PROPERTY_DAMAGE" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gwUQSt1REe2o2u7bmTeD-A" label="PUBLIC_PROPERTY_DAMAGE_TYPE" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gwUQS91REe2o2u7bmTeD-A" label="CONTRIBUTING_FACTOR_1" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gwUQTN1REe2o2u7bmTeD-A" label="CONTRIBUTING_FACTOR_2" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

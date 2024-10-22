@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_ZGfYEN1REe2o2u7bmTeD-A" name="Motor_Vehicle_Collision_Person" dataPackage="_ZGfYEd1REe2o2u7bmTeD-A" Server="Localhost 127.0.0.1" FilePath="C:/Users/shriy/Downloads/OneDrive_1_4-16-2023/Motor_Vehicle_Collisions_-_Person.tsv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;\t&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Tabulation"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_ZGfYEd1REe2o2u7bmTeD-A" name="default" dataManager="_ZGfYEN1REe2o2u7bmTeD-A">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_ZGfYEt1REe2o2u7bmTeD-A" id="__4UfcN1QEe2o2u7bmTeD-A" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZGfYE91REe2o2u7bmTeD-A" label="UNIQUE_ID" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZGfYFN1REe2o2u7bmTeD-A" label="COLLISION_ID" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZGfYFd1REe2o2u7bmTeD-A" label="CRASH_DATE" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZGfYFt1REe2o2u7bmTeD-A" label="CRASH_TIME" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZGfYF91REe2o2u7bmTeD-A" label="PERSON_ID" length="36" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZGfYGN1REe2o2u7bmTeD-A" label="PERSON_TYPE" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZGfYGd1REe2o2u7bmTeD-A" label="PERSON_INJURY" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZGfYGt1REe2o2u7bmTeD-A" label="VEHICLE_ID" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZGfYG91REe2o2u7bmTeD-A" label="PERSON_AGE" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZGfYHN1REe2o2u7bmTeD-A" label="EJECTION" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZGfYHd1REe2o2u7bmTeD-A" label="EMOTIONAL_STATUS" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZGfYHt1REe2o2u7bmTeD-A" label="BODILY_INJURY" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZGfYH91REe2o2u7bmTeD-A" label="POSITION_IN_VEHICLE" length="84" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZGfYIN1REe2o2u7bmTeD-A" label="SAFETY_EQUIPMENT" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZGfYId1REe2o2u7bmTeD-A" label="PED_LOCATION" length="53" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZGfYIt1REe2o2u7bmTeD-A" label="PED_ACTION" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZGfYI91REe2o2u7bmTeD-A" label="COMPLAINT" length="27" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZGfYJN1REe2o2u7bmTeD-A" label="PED_ROLE" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZGfYJd1REe2o2u7bmTeD-A" label="CONTRIBUTING_FACTOR_1" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZGfYJt1REe2o2u7bmTeD-A" label="CONTRIBUTING_FACTOR_2" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZGfYJ91REe2o2u7bmTeD-A" label="PERSON_SEX" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
