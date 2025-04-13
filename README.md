@@ -1,53 +1,123 @@
-# 🚗 NYC Motor Vehicles Collisions – End-to-End ETL Pipeline
+# NYC Motor Vehicle Collisions – End-to-End ETL and Analytics Project
 
-**Date**: May 2024  
-**Tech Stack**: Alteryx | Talend | SQL | Excel | Data Profiling | Data Cleaning | Data Transformation  
+## 🚦 Project Overview
 
----
+This project demonstrates a complete **ETL pipeline and business intelligence workflow** designed to analyze motor vehicle collisions in **New York City**. Using real-world open data, the project handles raw ingestion, transformation, modeling, and dashboard visualization to uncover patterns and insights into NYC traffic incidents.
 
-## 📌 Project Overview
-
-The **NYC Motor Vehicles Collisions ETL Pipeline** is an end-to-end data engineering project focused on automating the extraction, transformation, and loading (ETL) of traffic collision data in New York City. With over **2 million records**, this project demonstrates real-world data wrangling, quality assurance, and automation skills using **Alteryx** and **Talend**.
-
-The goal was to enable reliable and scalable data reporting for downstream analysis, reducing report refresh delays and improving the consistency and accuracy of insights used by stakeholders.
+From cleaning over **2 million collision records** to visualizing location-based accident hotspots and time-based trends, this project exemplifies a real-life data engineering and analytics use case integrating **Talend**, **Alteryx**, **ER Modeling**, and **Tableau**.
 
 ---
 
-## 🧩 Key Features
+## 📂 Project Structure
 
-- ✅ **Data Profiling & Cleansing**  
-  Used **Alteryx Designer** to perform detailed data profiling, handle missing values, normalize data formats, and eliminate outliers to ensure high-quality input for further transformation.
-
-- ✅ **Data Transformation**  
-  Created modular workflows in **Alteryx** to aggregate, filter, and enrich traffic incident records across multiple boroughs, time periods, and vehicle types.
-
-- ✅ **ETL Automation with Talend**  
-  Built reusable **Talend ETL workflows** to automate data ingestion, transformation, and loading into target destinations, enabling daily refreshes of collision datasets.
-
-- ✅ **Performance Improvement**  
-  Reduced report refresh time **from days to hours**, streamlining access to consistent and clean data for dashboards and reporting teams.
+| Folder          | Description |
+|------------------|-------------|
+| `Alteryx`        | Contains data profiling and transformation workflows created in Alteryx Designer. Used for initial data exploration and cleansing. |
+| `Talend`         | Contains Talend ETL jobs used for large-scale data ingestion, filtering, deduplication, and transformation pipelines. |
+| `Data Models`    | Includes both **physical** and **dimensional** models representing normalized and analytical schemas. Designed using ER modeling tools. |
+| `Tableau`        | Contains published Tableau dashboards showing KPI visualizations, heatmaps, and time-trend analyses based on the cleaned dataset. |
 
 ---
 
-## 📊 Outcomes
+## 📊 Dataset Information
 
-- Processed and cleaned **2M+ collision records** from NYC Open Data.
-- Delivered a reusable pipeline that enabled near real-time reporting.
-- Improved data quality and reduced manual intervention in the reporting process.
-- Enhanced accuracy and timeliness of public safety and policy-related insights.
-
----
-
-## 🔧 Tools & Technologies
-
-- **Alteryx Designer** – For visual data profiling, transformation, and cleaning  
-- **Talend Open Studio** – For ETL pipeline automation  
-- **SQL** – For validation queries and final checks  
-- **Excel** – For quick analysis and stakeholder-ready summaries
+- **Source**: [NYC Open Data - Motor Vehicle Collisions - Crashes](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95)
+- **Records Processed**: 2 million+
+- **Key Fields**:
+  - Crash Date, Time, Borough, ZIP Code
+  - Latitude/Longitude (Geolocation)
+  - Number of Persons Injured/Killed
+  - Vehicle Types Involved
+  - Contributing Factors (e.g., distracted driving, speeding)
 
 ---
 
-## 📈 Future Enhancements
+## 🎯 Objectives
 
-- Integration with a **SQL-based data warehouse** (e.g., Snowflake or Redshift)  
-- Real-time data feed using NYC Open Data API  
+- Automate **data extraction and transformation** from NYC open data using Talend.
+- Perform **data profiling and quality checks** with Alteryx.
+- Design both **normalized** and **analytical data models** to support efficient reporting.
+- Develop **interactive Tableau dashboards** for visualization and insights.
+- Deliver a modular, end-to-end data pipeline ready for scaling.
+
+---
+
+## 🛠️ Tools & Technologies
+
+- **Talend Open Studio** – ETL for large-volume data extraction and transformation.
+- **Alteryx Designer** – Used for profiling, pre-cleaning, and visual transformations.
+- **ER/Studio or DM1** – For physical and dimensional data model design.
+- **Tableau** – Interactive dashboards for stakeholders and public safety analytics.
+- **GitHub** – Project versioning and collaboration.
+
+---
+
+## 🔍 Features & Deliverables
+
+### ✅ ETL & Cleansing
+- Extracted raw NYC collision data (CSV/API).
+- Filtered invalid dates, null coordinates, and duplicates.
+- Normalized borough names, ZIP codes, and contributing factor values.
+- Handled edge cases such as multi-vehicle collisions and geolocation mismatches.
+
+### 📐 Data Modeling
+- **Physical Model**:
+  - Designed for data integrity and storage efficiency.
+  - Normalized entities: Crash, Vehicle, Person, Location, Time.
+- **Dimensional Model**:
+  - Star schema supporting Tableau dashboards.
+  - Fact tables: `FactCrash`, `FactInjury`
+  - Dimensions: `DimLocation`, `DimTime`, `DimVehicle`, `DimCause`
+
+### 📊 Dashboard Visualizations
+- Built with **Tableau**:
+  - Collision heatmaps by borough and ZIP code
+  - Time-trend graphs (weekly, monthly)
+  - Top contributing causes by time of day
+  - Fatal vs non-fatal crash analysis
+
+---
+
+## 📈 Business Use Cases
+
+- Inform city agencies to optimize patrol coverage and signal timing.
+- Detect high-risk zones for accidents and prioritize road safety investments.
+- Share transparent traffic incident data with the public and city planners.
+- Support predictive analytics for proactive crash prevention.
+
+---
+
+## 💡 Skills Demonstrated
+
+- **Data Integration** and ETL using Talend & Alteryx.
+- **Data Modeling** for transactional and analytical use cases.
+- **Data Visualization** and storytelling using Tableau.
+- **Data Quality Assessment** and profiling workflows.
+- Version control and collaboration via **GitHub**.
+
+---
+
+## 🚀 Future Enhancements
+
+- Schedule daily ETL jobs using Talend scheduler or cron-based automation.
+- Integrate external datasets like weather or construction zones for deeper analysis.
+- Export model to Snowflake or Redshift for scalable querying.
+- Add alerting features for real-time crash pattern detection.
+
+---
+
+## 🙋‍♀️ Author
+
+**Pranali Sawant**  
+📫 [LinkedIn](https://www.linkedin.com/in/pranalisawantt12/) | 📧 pranalisawantt12@gmail.com  
+🚀 Passionate about using data engineering and BI tools to drive safer, smarter cities.
+
+---
+
+## 📜 License
+
+This project is released under the [MIT License](LICENSE).
+
+---
+
+⭐ If you found this project helpful or insightful, please ⭐ this repo and connect with me on LinkedIn!
