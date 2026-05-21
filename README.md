@@ -4,7 +4,7 @@
 
 This project demonstrates a complete **ETL pipeline and business intelligence workflow** designed to analyze motor vehicle collisions in **New York City**. Using real-world open data, the project handles raw ingestion, transformation, modeling, and dashboard visualization to uncover patterns and insights into NYC traffic incidents.
 
-From cleaning over **2 million collision records** to visualizing location-based accident hotspots and time-based trends, this project exemplifies a real-life data engineering and analytics use case integrating **Talend**, **Alteryx**, **ER Modeling**, and **Tableau**.
+From cleaning over **30K+ collision records** to visualizing location-based accident hotspots and time-based trends, this project exemplifies a real-life data engineering and analytics use case integrating **Talend**, **Alteryx**, **ER Modeling**, and **Tableau**.
 
 ---
 
@@ -22,7 +22,7 @@ From cleaning over **2 million collision records** to visualizing location-based
 ## 📊 Dataset Information
 
 - **Source**: [NYC Open Data - Motor Vehicle Collisions - Crashes](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95)
-- **Records Processed**: 2 million+
+- **Records Processed**: 30K+
 - **Key Fields**:
   - Crash Date, Time, Borough, ZIP Code
   - Latitude/Longitude (Geolocation)
